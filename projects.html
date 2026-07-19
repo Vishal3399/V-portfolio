@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>V-Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- <style>
+
+    html,
+body {
+    overflow-x: hidden;
+}
+.card-animation-left,
+.card-animation-right {
+    opacity: 0;
+    transition: all 0.8s ease;
+}
+
+.card-animation-left {
+    transform: translateX(-80px);
+}
+
+.card-animation-right {
+    transform: translateX(80px);
+}
+
+.card-animation-left.show,
+.card-animation-right.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+  </style> -->
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+
+      <a class="navbar-brand fw-bold ms-5 text-danger fs-3" href="index.html">V-Portfolio</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse fw-bold" id="navbarCollapse">
+        <div class="navbar-nav ms-auto">
+          <a href="/index.html" class="nav-link">Home</a>
+          <a href="/projects.html" class="nav-link">Projects</a>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+
+
+
+  <section class="py-5" style="background-color:#121212;">
+
+    <hr style="border:1px solid white; opacity:1; width:95%; margin:auto;">
+
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-md-2 g-4 py-5">
+
+        <!-- Card 1 -->
+        <div class="col card-animation-left">
+          <div class="card bg-dark border-secondary text-white h-100 shadow">
+            <img src="images/cyber.png" class="card-img-top" alt="CyberSentinel">
+            <div class="card-body">
+              <h5 class="card-title">CyberSentinel</h5>
+              <p class="card-text text-light">
+                A cybersecurity awareness platform with security tools,
+                quizzes, reports, and learning resources.
+              </p>
+              <a href="https://cybersentinel.is-best.net/?i=2" class="btn btn-danger">
+                Visit Project
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col card-animation-right">
+          <div class="card bg-dark border-secondary text-white h-100 shadow">
+            <img src="images/portfolio.png" class="card-img-top" alt="Portfolio">
+            <div class="card-body">
+              <h5 class="card-title">Portfolio Website</h5>
+              <p class="card-text text-light">
+                Personal portfolio showcasing my projects, skills,
+                and contact information.
+              </p>
+              <a href="https://portfolio-demo.fwh.is/?i=1" class="btn btn-danger">Visit Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Continue the remaining cards the same way -->
+
+
+        <!-- Card 3 -->
+        <div class="col card-animation-left">
+          <div class="card bg-dark border-secondary text-white h-100 shadow">
+            <img src="images/tours.png" class="card-img-top" alt="Portfolio">
+            <div class="card-body">
+              <h5 class="card-title">Portfolio Website</h5>
+              <p class="card-text text-light">
+                A fully responsive and interactive Tours and Travel Agency website built using HTML, CSS, and JavaScript
+                for a dynamic user experience. Backend functionality is implemented using PHP and MySQL.
+              </p>
+              <a href="https://tours3-travel.lovestoblog.com/?i=1" class="btn btn-danger">Visit Project</a>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Card 4 -->
+        <div class="col card-animation-right">
+          <div class="card bg-dark border-secondary text-white h-100 shadow">
+            <img src="images/autocart.png" class="card-img-top" alt="Portfolio">
+            <div class="card-body">
+              <h5 class="card-title">Portfolio Website</h5>
+              <p class="card-text text-light">
+                Built Automart, a responsive car marketplace web app using React, Vite, and CSS.
+              </p>
+              <a href="https://automart.is-best.net/login" class="btn btn-danger">Visit Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col card-animation-left">
+          <div class="card bg-dark border-secondary text-white h-100 shadow">
+            <img src="images/demoportfolio.png" class="card-img-top" alt="Portfolio">
+            <div class="card-body">
+              <h5 class="card-title">Portfolio Website</h5>
+              <p class="card-text text-light">
+                Developed a modern, responsive portfolio website using React.js and Vite.
+                Showcases my skills, projects with a clean, interactive UI.
+              </p>
+              <a href="https://demoportfolio.free.je/?i=1" class="btn btn-danger">Visit Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+      <div class="col card-animation-right">
+        <div class="card bg-dark border-secondary text-white h-100 shadow">
+          <img src="images/portfoliomain.png" class="card-img-top" alt="Portfolio">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio Website</h5>
+            <p class="card-text text-light">
+              Personal portfolio showcasing my projects, skills,
+              certificates, and contact information.
+            </p>
+            <a href="#" class="btn btn-danger">Visit Project</a>
+          </div>
+        </div>
+      </div>
+
+<!-- 
+       Card 7
+      <div class="col card-animation-left">
+        <div class="card bg-dark border-secondary text-white h-100 shadow">
+          <img src="images/portfolio.png" class="card-img-top" alt="Portfolio">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio Website</h5>
+            <p class="card-text text-light">
+              Personal portfolio showcasing my projects, skills,
+              certificates, and contact information.
+            </p>
+            <a href="#" class="btn btn-danger">Visit Project</a>
+          </div>
+        </div>
+      </div>  -->
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+
+<!-- <script>
+ document.addEventListener("DOMContentLoaded", function () {
+
+    const cards = document.querySelectorAll(".card-animation-left, .card-animation-right");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+
+                // Animate only once
+                observer.unobserve(entry.target);
+            }
+
+        });
+    }, {
+        threshold: 0.3
+    });
+
+    cards.forEach(card => observer.observe(card));
+
+});
+</script> -->
+
+</html>
